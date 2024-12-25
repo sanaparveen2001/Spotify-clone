@@ -1,0 +1,43 @@
+#sec5{
+    /* border: 2px solid red; */
+    height: 60vh;
+    background-image: url("./images/bubbles-dktp.svg") ,linear-gradient(-45deg, rgb(108, 14, 224) -5%,
+     rgb(240, 55, 166));
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: bottom;
+     
+}
+#sec5 div{
+    line-height: 0.8;
+}
+#sec5 div span button{
+    border: 0;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: black;
+    padding: 18px;
+    background-color: white;
+    margin-left: 45%;
+    margin-top: 50px;
+    font-weight: 700;
+    cursor: pointer;
+    touch-action: manipulation;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+#sec5 div span button:hover{
+    animation: forwards;
+}
+#ready{
+    /* border: 2px solid red; */
+    color: white;
+    display: inline-flex;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    /* padding: 112px 15px 32px; */
+    margin-left: 30%;
+    margin-top: 170px;
+}

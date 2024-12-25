@@ -1,0 +1,51 @@
+@import url("./main.css");
+@import url("./section3.css");
+@import url("./section4.css");
+@import url("./section6.css");
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+nav{
+    /* border: 3px solid; */
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+#sub-nav span svg{
+    height: 2.5em;
+    fill: white;
+    
+}
+#sub-nav ol{
+    /* border: 2px solid blue; */
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    cursor: pointer;
+
+}
+#sub-nav ol li{
+    font-size: 16px;
+    font-weight: 700;
+}
+#sub-nav ol li:hover{
+    color: #1ed760;
+}
